@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: roboto;
+    min-height: 100vh;
+
+
+}
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(file:///C:/wamp64/www/Group%202/images/bg3.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+    position: relative;
+    right: 70px;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	width: 100%;
+	padding: 15px 0;
+    position: relative;
+    left: 135px;
+}
+.image_center {
+	width: 100%;
+    padding: 15px 0;
+    position: relative;
+    left: 50px;
+
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-img1{
+	position: relative;
+	border-radius: 15px;
+	display: inline-block;
+    bottom: 5px;
+    padding: 4px;
+	width: 17%;
+	background-color: #de867a;
+	
+}
+.col-img2{
+	width: 17%;
+    border-radius: 15px;
+    display: inline-block;
+	background-color: #e4a78a;
+}
+.footer{
+    width: 100%;
+    border-radius: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+	background-color: #333;
+}
+
+
+
+
+
